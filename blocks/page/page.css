@@ -1,0 +1,10 @@
+.page {
+  min-width: 320px;
+  width: 100%;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: "Inter", sans-serif;
+  background-color: #2a2c2f;
+  color: #fff;
+}
