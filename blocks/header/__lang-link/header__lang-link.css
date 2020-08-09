@@ -6,6 +6,11 @@
   margin: 0;
   margin-left: 18px;
   color: #fff;
+  transition: opacity 0.3s linear;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {
