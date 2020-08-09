@@ -1,0 +1,11 @@
+.header__lang-links {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header__lang-links:last-child {
+  margin-right: 0;
+}
