@@ -4,10 +4,3 @@
   padding-bottom: 62.5%;
   background-size: contain;
 }
-
-@media screen and (max-width: 767px) {
-  .lead__image {
-    width: calc(100% + 40px);
-    margin-left: -20px;
-  }
-}

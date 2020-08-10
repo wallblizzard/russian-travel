@@ -1,0 +1,45 @@
+.place {
+  max-width: 984px;
+  margin: 80px auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px 40px;
+  grid-template-areas:
+    "title website"
+    "image paragraphs";
+}
+
+.place:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    margin-top: 72px;
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place {
+    row-gap: 32px;
+    column-gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "image"
+      "paragraphs";
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    margin-top: 48px;
+  }
+}
