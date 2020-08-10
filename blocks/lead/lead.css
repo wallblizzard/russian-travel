@@ -1,11 +1,10 @@
 .lead {
   max-width: 984px;
   margin: 0 auto;
-  padding: 0 48px;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .lead {
     padding: 0;
   }
-}
+}  */

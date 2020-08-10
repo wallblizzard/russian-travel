@@ -2,13 +2,13 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Путешествия по России</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
-  <body class="root">
+  <body class="body">
     <div class="page">
-      <header class="header">
+      <header class="header container">
         <a href="#">
           <img
             class="header__logo logo"
@@ -28,7 +28,7 @@
         </ul>
       </header>
       <main class="main">
-        <section class="lead">
+        <section class="lead container">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
@@ -36,7 +36,7 @@
           <div class="lead__image"></div>
           <p class="lead__caption">ваша полка — верхняя</p>
         </section>
-        <section class="intro">
+        <section class="intro container">
           <h2 class="intro__title">Чего мы там не видели?</h2>
           <p class="intro__text">
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
@@ -65,68 +65,94 @@
             <li>Аэропортов <span class="intro__less">241</span></li>
           </ul>
         </section>
-        <section class="photo-grid">
-          <img
-            src="./images/photo-grid-train.jpg"
-            alt="Поезд"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/photo-grid-atharva-tulsi.jpg"
-            alt="
-          Талси"
-            class="./images/photo-grid__item"
-          />
-          <img
-            src="./images/photo-grid-tuman.jpg"
-            alt="Туман"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/photo-grid-sochi.jpg"
-            alt="Сочи"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/photo-grid-arisa.jpg"
-            alt="Колесо"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/photo-grid-baikal.jpg"
-            alt="Пляж байкал"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/photo-grid-elbrus.jpg"
-            alt="Эльбрус"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/photo-grid-kondratiev.jpg"
-            alt="Знак"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/photo-grid-kamchatka-1.jpg"
-            alt="Камчатка 1"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/photo-grid-kamchatka-2.jpg"
-            alt="Камчатка 2"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/photo-grid-baikal-2.jpg"
-            alt="Байкал 2"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/photo-grid-ergaki.jpg"
-            alt="Ергаки"
-            class="photo-grid__item"
-          />
+        <section class="photo-grid container">
+          <figure class="photo-grid__item">
+            <img
+              src="./images/photo-grid-train.jpg"
+              alt="Поезд"
+              class="photo-grid__image"
+            />
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              src="./images/photo-grid-atharva-tulsi.jpg"
+              alt="
+            Талси"
+              class="photo-grid__image"
+            />
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              src="./images/photo-grid-tuman.jpg"
+              alt="Туман"
+              class="photo-grid__image"
+            />
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              src="./images/photo-grid-sochi.jpg"
+              alt="Сочи"
+              class="photo-grid__image"
+            />
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              src="./images/photo-grid-arisa.jpg"
+              alt="Колесо"
+              class="photo-grid__image"
+            />
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              src="./images/photo-grid-baikal.jpg"
+              alt="Пляж байкал"
+              class="photo-grid__image"
+            />
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              src="./images/photo-grid-elbrus.jpg"
+              alt="Эльбрус"
+              class="photo-grid__image"
+            />
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              src="./images/photo-grid-kondratiev.jpg"
+              alt="Знак"
+              class="photo-grid__image"
+            />
+          </figure>
+
+          <figure class="photo-grid__item">
+            <img
+              src="./images/photo-grid-kamchatka-1.jpg"
+              alt="Камчатка 1"
+              class="photo-grid__image"
+            />
+          </figure>
+
+          <figure class="photo-grid__item">
+            <img
+              src="./images/photo-grid-kamchatka-2.jpg"
+              alt="Камчатка 2"
+              class="photo-grid__image"
+            />
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              src="./images/photo-grid-baikal-2.jpg"
+              alt="Байкал 2"
+              class="photo-grid__image"
+            />
+          </figure>
+          <figure class="photo-grid__item">
+            <img
+              src="./images/photo-grid-ergaki.jpg"
+              alt="Ергаки"
+              class="photo-grid__image"
+            />
+          </figure>
         </section>
       </main>
     </div>

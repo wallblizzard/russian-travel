@@ -1,8 +1,8 @@
-.root {
+.body {
   min-width: 320px;
   width: 100%;
-  margin: 0 auto;
   font-family: "Inter", sans-serif;
   background-color: #2a2c2f;
   color: #fff;
+  margin: 0 auto;
 }
