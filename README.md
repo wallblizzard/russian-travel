@@ -4,7 +4,7 @@
 
 Проект о путешествии по России.
 
-- [Ссылка на макет в Figma](https://wallblizzard.github.io/russian-travel/.)
+- [Ссылка на сайт](https://wallblizzard.github.io/russian-travel/.)
 
 ### Технологии:
 
