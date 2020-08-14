@@ -1,0 +1,15 @@
+.page__section-intro {
+  margin: 92px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .page__section-intro {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page__section-intro {
+    margin-top: 64px;
+  }
+}

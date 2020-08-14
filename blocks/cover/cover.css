@@ -1,0 +1,25 @@
+.cover {
+  max-width: 1184px;
+  background: url(../../images/cover.jpg) center/cover no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: calc(100% + 96px);
+    margin-left: -48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    width: calc(100% + 48px);
+    margin-left: -24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+  }
+}
