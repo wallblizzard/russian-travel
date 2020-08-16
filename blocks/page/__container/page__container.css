@@ -1,17 +1,4 @@
 .page__container {
   max-width: 1184px;
-  padding: 0 48px;
   margin: 0 auto;
-}
-
-@media screen and (max-width: 768px) {
-  .page__container {
-    padding: 0 24px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .page__container {
-    padding: 0 16px;
-  }
 }
