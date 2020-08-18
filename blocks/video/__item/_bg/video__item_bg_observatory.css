@@ -1,6 +1,3 @@
 .video__item_bg_observatory {
-  width: 100%;
-  min-height: 323px;
-  background: url(../../../../images/observatory-bg.jpg) no-repeat;
-  background-size: contain;
+  background: url(../../../../images/observatory-bg.jpg) center/cover no-repeat;
 }

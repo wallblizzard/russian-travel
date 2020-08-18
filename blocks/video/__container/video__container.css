@@ -1,5 +1,31 @@
 .video__container {
+  margin-top: 72px;
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__container {
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__container {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .video__container {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .video__container {
+    margin-top: 24px;
+  }
 }

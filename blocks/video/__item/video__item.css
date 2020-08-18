@@ -1,4 +1,6 @@
 .video__item {
+  width: 100%;
+  min-height: 323px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -7,6 +9,8 @@
   color: #fff;
   outline: none;
   border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .video__item::before {
@@ -19,4 +23,26 @@
   background-color: #000;
   opacity: 0.3;
   transition: opacity 0.3s ease;
+}
+
+.video__item:hover::before {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__item {
+    min-height: 288px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__item {
+    min-height: 200px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video__item {
+    min-height: 192px;
+  }
 }

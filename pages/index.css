@@ -11,6 +11,7 @@
 @import url(../blocks/page/__section-intro/page__section-intro.css);
 @import url(../blocks/page/__section-photo-grid/page__section-photo-grid.css);
 @import url(../blocks/page/__section-places/page__section-places.css);
+@import url(../blocks/page/__section-video/page__section-video.css);
 @import url(../blocks/page/__section-cover/page__section-cover.css);
 @import url(../blocks/page/__footer/page__footer.css);
 
@@ -57,6 +58,9 @@
 @import url(../blocks/video/__item/_bg/video__item_bg_kamchatka.css);
 @import url(../blocks/video/__item/_bg/video__item_bg_observatory.css);
 @import url(../blocks/video/__text/video__text.css);
+@import url(../blocks/video/__duration/video__duration.css);
+@import url(../blocks/video/__title/video__title.css);
+@import url(../blocks/video/__subtitle/video__subtitle.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
