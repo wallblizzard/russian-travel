@@ -1,6 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/content-title/content-title.css);
+@import url(../blocks/content-subtitle/content-subtitle.css);
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__container/page__container.css);
 @import url(../blocks/page/__header/page__header.css);
@@ -46,6 +49,14 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__container/video__container.css);
+@import url(../blocks/video/__icon-play/video__icon-play.css);
+@import url(../blocks/video/__item/video__item.css);
+@import url(../blocks/video/__item/_bg/video__item_bg_kamchatka.css);
+@import url(../blocks/video/__item/_bg/video__item_bg_observatory.css);
+@import url(../blocks/video/__text/video__text.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
