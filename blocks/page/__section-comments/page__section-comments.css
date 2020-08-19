@@ -1,0 +1,9 @@
+.page__section-comments {
+  margin: 102px 0 0 0;
+}
+
+@media screen and (max-width: 375px) {
+  .page__section-comments {
+    margin-top: 64px;
+  }
+}
